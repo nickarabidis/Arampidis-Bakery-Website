@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arampidis Bakery</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7.0.0/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+<body>
+
+    <header class="header">
+
+        <section class="flex">
+        
+
+        <!-- <a href="index.html" class="logo">Αραμπίδης<i class="fa-solid fa-bread-slice"></i></a> -->
+        <a href="index.html" class="logo"><img src="images/logo_final.png" alt="logo"></a>
+
+        <nav class="navbar">
+            <a href="#home" class="link">home</a>
+            <a href="#about" class="link">about</a>
+            <div class="dropdown" data-dropdown>
+                <button class="link" data-dropdown-button>products</button>
+                <div class="dropdown-menu products-grid">
+                    <div>
+                        <div class="dropdown-links">
+                            <a href="#products" class="link">Popular Products</a>
+                            <a href="all-products.html" class="link">All Products</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#contact" class="link">Contact</a>
+        </nav>
+
+        <div class="fas fa-bars" id="menu-btn"></div>
+
+        </section>
+    </header>
+
+    <!-- HOME -->
+
+    <div class="home-bg">
+
+        <section class="home" id="home">
+
+            <div class="content">
+
+                <h3>Fresh out of the oven</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta mollitia praesentium asperiores expedita nemo nesciunt tempore alias cum optio porro!</p>
+                <a href="#about" class="btn">about us</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+        <h1 class="heading">about us <span> why choose us</span></h1>
+        
+        <div class="box-container">
+
+            <div class="image">
+                <img src="images/about.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>A loaf of bread a day, keeps the doctor away</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit neque accusantium pariatur quidem corporis magnam dolor labore ipsam ex incidunt?</p>
+                <a href="#products" class="btn">Popular products</a>
+        
+            </div>
+        </div>
+    </section>
+
+    <!-- POPULAR PRODUCTS -->
+    
+    <section class="products" id="products">
+        <h1 class="heading">our menu <span>popular products</span></h1>
+        <div class="box-container">
+
+            <a href="#" class="box">
+                <img src="images/home-img-1.png" alt="">
+                <div class="content">
+                <h3>love you coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                <span>$8.99</span></p>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="images/home-img-2.png" alt="">
+                <div class="content">
+                <h3>love you coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                <span>$8.99</span></p>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="images/home-img-3.png" alt="">
+                <div class="content">
+                <h3>love you coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                <span>$8.99</span></p>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="images/home-img-4.png" alt="">
+                <div class="content">
+                <h3>love you coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                <span>$8.99</span></p>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="images/home-img-5.png" alt="">
+                <div class="content">
+                <h3>love you coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                <span>$8.99</span></p>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="images/home-img-1.png" alt="">
+                <div class="content">
+                <h3>love you coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                <span>$8.99</span></p>
+                </div>
+            </a>
+            <a href="#products" class="btn">All products</a>
+        </div>
+
+    </section>
+<!-- ---CONTACT--- -->
+    <section class="contact" id="contact">
+        <h1 class="heading">contact <span>booking</span></h1>
+        
+        <!-- <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.png" alt="">
+            </div>
+
+            <form action="" method="post">
+                <h3>Contact us</h3>
+                <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
+                <input type="email" required class="box" placeholder="enter your email">
+                <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number" min="0" max="9999999999" onkeypress="if(this.value.length ==10)return false">
+                <textarea placeholder="your message" name="" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" name="send" value="send message" class="btn">
+            </form>
+        </div> -->
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <section class="location">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12017.349347095993!2d24.13504216977539!3d41.14898990000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a9552d32c88f79%3A0xefe1c95743bb22f4!2zzpjOtc6_z4TOv866z4zPgM6_z4XOu86_z4UgMTAsIM6Uz4HOrM68zrEgNjYxIDAw!5e0!3m2!1sel!2sgr!4v1669976339367!5m2!1sel!2sgr" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
+                </div>
+                    
+                <div class="contact-col">
+                    <section class="location_chars">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Our Location</h5>
+                            <p>Theotokopoulou 10</p>
+                            <p>Drama, Greece</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-clock"></i>
+                        <span>
+                        <h5>opening hours</h5>
+                        <p>Monday to Saturday</p>
+                        <p>08:00am to 04:00pm</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>Our Number</h5>
+                            <p>25213-00863</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                            <h5>Our Email</h5>
+                            <p>info@gmail.com</p>
+                        </span>
+                    </div>
+                    </section>
+                </div>
+        </section>
+    </section>    
+
+    <!-- footer -->
+
+    <section class="footer">
+        
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>Monday To Saturday, 08:00am To 04:00pm</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>our location</h3>
+                <p>Theotokopoulou 10, Drama, Greece</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>our number</h3>
+                <p>25213-00863</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>our email</h3>
+                <p>info@gmail.com</p>
+            </div>
+
+        </div>
+        <div class="credit">&copy; copyright @ 2022 by <span>Nikolaos Arabidis</span> | all rights reserved</div>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
